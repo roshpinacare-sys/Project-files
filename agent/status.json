@@ -1,13 +1,13 @@
 {
  "agent": "archive-keeper",
- "generatedAt": "2026-09-30T15:36:01Z",
+ "generatedAt": "2026-10-01T19:51:31Z",
  "verdict": "PASS",
  "checks": {
   "archivesTotal": 10,
   "archivesIntact": 10,
   "archivesCorrupt": 0,
   "archivesBytes": 68852453,
-  "rootDocuments": 18
+  "rootDocuments": 19
  },
  "reason": "all archives open cleanly"
 }
