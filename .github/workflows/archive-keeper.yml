@@ -7,10 +7,7 @@
 name: archive-keeper
 
 on:
-  schedule:
-    - cron: '31 11 * * 1'
   workflow_dispatch:
-
 permissions:
   contents: write
 
