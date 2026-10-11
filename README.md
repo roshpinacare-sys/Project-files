@@ -1,5 +1,13 @@
 # Project-files — the canonical archive vault
 
+**ROLE (declared 2026-10-11, task 10-c un-silence sweep):** the
+**canonical installer/runtime archive vault** (zip snapshots,
+hash-manifested) + the SAOS-PULSE evidence hoard (self-labeled duplicates,
+dup-ratio 0.5959 recorded by its own dedup scan). Why it was muted: archive
+by design + dispatch-only workflows + the billing cutoff 10-06. Revival
+path: dispatch archive-keeper when minutes return; dedup the PULSE copies
+below its own 0.2 target as a standing low-priority duty.
+
 This repository is a deliberate **archive vault**: canonical zip snapshots of
 installers, patches and runtime substrates, stored in git so they are
 versioned, hash-manifested and never lost.
