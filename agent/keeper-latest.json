@@ -1,0 +1,27 @@
+{
+ "schema": "saos/pf-keeper/1",
+ "repo": "Project-files",
+ "generatedAt": "2026-10-12T21:49:36Z",
+ "lanes": {
+  "zip": {
+   "total": 10,
+   "ok": 10,
+   "corrupt": [],
+   "bytes": 68852453,
+   "verdict": "PASS"
+  },
+  "yaml": {
+   "workflows": 3,
+   "broken": [],
+   "verdict": "PASS"
+  },
+  "gitleaks": {
+   "findings": 0,
+   "rc": 0,
+   "verdict": "BASELINE-SET",
+   "baseline": 0
+  },
+  "verdict": "PASS"
+ },
+ "notes": "count-based gitleaks baseline v1; zero secret material in receipts; deep needle-scan (trace 1a130db0) stays the key-family authority"
+}
